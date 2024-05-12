@@ -1,6 +1,9 @@
 # Japanese Test
-This is a project for the Black Belt Exam to practice Japanese Vocabulary.  
-Functionality: Displays 10 random questions and checks if the answers are correct and then saves the score to a file.
+This is a project for the Karate Black Belt Exam to practice Japanese Vocabulary.  
+Functionality:  
+ - Displays 10 random questions (in English) and prompts to type in Japanese translation.
+ - Checks if the answers are correct and displays the correct one if it's wrong.
+ - Saves the latest score to a file for further analysis.
 
 ## Table of contents:
 1. Installation
@@ -9,15 +12,15 @@ Functionality: Displays 10 random questions and checks if the answers are correc
 
 ## Installation
 The whole project is in 3 files - japanese_test.py, questions.csv, answers.csv.  
-The additional file (statistics.csv) is only an example.  
+There is also 4th file created when the test is running for the first time.  
 Just copy the files to your desired destination and open them in your compilator.
 
 ## How to use the Japanese Test
-The test is asking only 10 questions. Every time it will ask 10 unique questions for each run.  
-Also, it will check if the order of the words is correct, but this won't affect the score.  
-After the last question, the score is displayed on the screen and the result
+Start the test and type in your answers.  
+After the last question, the score is displayed on the screen, and the result
 with the date and current time is saved to the file 'statistics.csv'
+so you can analyse your progress later.
 
 ## Credits
-* Tomasz Wisniewski (me): tsz.wisniewski@gmail.com
+* Tomasz Wisniewski: tsz.wisniewski@gmail.com
 * Wiktor Wisniewski
